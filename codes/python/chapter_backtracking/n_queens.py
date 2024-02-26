@@ -51,7 +51,7 @@ def n_queens(n: int) -> list[list[list[str]]]:
 
 """Driver Code"""
 if __name__ == "__main__":
-    n = 4
+    n = 5
     res = n_queens(n)
 
     print(f"输入棋盘长宽为 {n}")
